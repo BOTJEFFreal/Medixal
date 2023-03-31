@@ -43,7 +43,7 @@ class _LoginPageState extends State<LoginPage> {
 
               // welcome back, you've been missed!
               Text(
-                'Welcome back you\'ve been missed!',
+                'Enter Patients Details',
                 style: TextStyle(
                   color: Colors.grey[700],
                   fontSize: 16,

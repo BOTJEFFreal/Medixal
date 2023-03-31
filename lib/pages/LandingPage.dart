@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'Login/loginPage.dart';
+import 'Medicinelist/Medicinelist.dart';
 import 'SelectRole.dart';
 
 class LandingPage extends StatefulWidget {
@@ -61,7 +62,7 @@ class _LandingPageState extends State<LandingPage> {
                 onTap: (){
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const SelectRole()),
+                    MaterialPageRoute(builder: (context) => const Medicinelist()),
                   );
                 },
 

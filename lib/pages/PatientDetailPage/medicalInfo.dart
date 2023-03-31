@@ -1,7 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../../components/rectangular_tile.dart';
+import '../../components/rectangular_tile1.dart';
+import '../../components/rectangular_tile2.dart';
+import '../../components/rectangular_tile3.dart';
 
 class medicalInfo extends StatefulWidget {
   const medicalInfo({Key? key}) : super(key: key);
@@ -21,7 +23,7 @@ class _medicalInfoState extends State<medicalInfo> {
             children: [
               IconButton(onPressed: null, icon: Icon(Icons.arrow_back)),
               SizedBox(
-                width: 80,
+                width: 50,
               ),
               Text("Patient Details",style: TextStyle(fontSize: 32,fontWeight: FontWeight.w600,color: Colors.grey),),
             ],
@@ -80,15 +82,27 @@ class _medicalInfoState extends State<medicalInfo> {
           Text("Patient's History",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.grey)),
           SizedBox(height: 8,),
           Expanded(
-            child: ListView.builder(
-                itemCount: 5,
-                itemBuilder: (BuildContext context, int index) {
-                  return Padding(
-                    padding: const EdgeInsets.only(bottom: 8),
-                    child: RectangularTile(),
-                  );
-                }),
-          ),
+            child: SingleChildScrollView(
+              child: Column(
+                children: [
+                  RectangularTile(),
+                  RectangularTile2(),
+                  RectangularTile3(),
+                  SizedBox(height: 4,),
+                ],
+              ),
+            ),
+          )
+          // Expanded(
+          //   child: ListView.builder(
+          //       itemCount: 5,
+          //       itemBuilder: (BuildContext context, int index) {
+          //         return Padding(
+          //           padding: const EdgeInsets.only(bottom: 8),
+          //           child: RectangularTile(),
+          //         );
+          //       }),
+          // ),
         ],
 
       ),

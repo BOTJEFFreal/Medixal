@@ -59,7 +59,7 @@ class _RectangularTileState extends State<RectangularTile> {
                 SizedBox(height: 5,),
                 Align(alignment:Alignment.topLeft,child: const Text("Description",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w600,color: Colors.grey))),
                 SizedBox(height: 5,),
-                const Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",style: TextStyle(fontSize: 12,fontWeight: FontWeight.w800,color: Colors.black54)),
+                const Text("The typical symptoms of a cold include cough, runny nose, sneezing, nasal congestion, and a sore throat, sometimes accompanied by muscle ache, fatigue, headache, and loss of appetite.A sore throat is present in about 40% of cases, a cough in about 50%,and muscle ache likewise in about 50%. In adults, a fever is generally not present but it is common in infants and young children.The cough is usually mild compared to that accompanying influenza.While a cough and a fever indicate a higher likelihood of influenza in adults, a great deal of similarity exists between these two conditions.A number of the viruses that cause the common cold may also result in asymptomatic infections.",style: TextStyle(fontSize: 12,fontWeight: FontWeight.w800,color: Colors.black54)),
 
               ],
             ),

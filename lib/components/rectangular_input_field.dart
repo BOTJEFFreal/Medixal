@@ -10,7 +10,7 @@ class RectangularInputField extends StatelessWidget {
   final bool obscureText;
   final controller;
 
-  const RectangularInputField({Key? key, required this.hintText, required this.icon, required this.obscureText, required this.controller}) : super(key: key);
+  const RectangularInputField({Key? key, required this.hintText, required this.obscureText, required this.controller, required this.icon}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../components/neumorphic_text_field_container.dart';
 import '../../components/rectangular_input_field.dart';
-import '../../components/rectangular_tile.dart';
+import '../../components/rectangular_tile1.dart';
 import 'checkUp.dart';
 import 'medicalInfo.dart';
 

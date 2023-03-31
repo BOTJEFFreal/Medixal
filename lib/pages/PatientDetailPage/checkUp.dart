@@ -21,33 +21,95 @@ class _checkUpState extends State<checkUp> {
         Container(
           padding: const EdgeInsets.all(8),
           color: Colors.teal[100],
-          child: const Text("He'd have you all unravel at the"),
+          child: Center(
+              child: const Text(
+            "General Medicine",
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 32,
+              color: Colors.grey,
+            ),
+            textAlign: TextAlign.center,
+          )),
         ),
         Container(
-          padding: const EdgeInsets.all(8),
-          color: Colors.teal[200],
-          child: const Text('Heed not the rabble'),
-        ),
+            padding: const EdgeInsets.all(8),
+            color: Colors.orangeAccent[100],
+            child: Center(
+                child: const Text(
+              'Optometry',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 30,
+                color: Colors.grey,
+              ),
+              textAlign: TextAlign.center,
+            ))),
         Container(
-          padding: const EdgeInsets.all(8),
-          color: Colors.teal[300],
-          child: const Text('Sound of screams but the'),
-        ),
+            padding: const EdgeInsets.all(8),
+            color: Colors.red[100],
+            child: Center(
+                child: const Text(
+              'Orthopedics',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 32,
+                color: Colors.grey,
+              ),
+              textAlign: TextAlign.center,
+            ))),
         Container(
-          padding: const EdgeInsets.all(8),
-          color: Colors.teal[400],
-          child: const Text('Who scream'),
-        ),
+            padding: const EdgeInsets.all(8),
+            color: Colors.blueAccent[100],
+            child: Center(
+                child: const Text(
+              'ENT',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 32,
+                color: Colors.grey,
+              ),
+              textAlign: TextAlign.center,
+            ))),
         Container(
-          padding: const EdgeInsets.all(8),
-          color: Colors.teal[500],
-          child: const Text('Revolution is coming...'),
-        ),
+            padding: const EdgeInsets.all(8),
+            color: Colors.yellowAccent[100],
+            child: Center(
+                child: const Text(
+              'Alternative Medicine',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 32,
+                color: Colors.grey,
+              ),
+              textAlign: TextAlign.center,
+            ))),
         Container(
-          padding: const EdgeInsets.all(8),
-          color: Colors.teal[600],
-          child: const Text('Revolution, they...'),
-        ),
+            padding: const EdgeInsets.all(8),
+            color: Colors.grey[600],
+            child: Center(
+                child: const Text(
+              'Dermatology',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 28,
+                color: Colors.grey,
+              ),
+              textAlign: TextAlign.center,
+            ))),
+        Container(
+            padding: const EdgeInsets.all(8),
+            color: Colors.pinkAccent[100],
+            child: Center(
+                child: const Text(
+                  'Radiology',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 26,
+                    color: Colors.grey,
+                  ),
+                  textAlign: TextAlign.center,
+                ))),
       ],
     );
   }
